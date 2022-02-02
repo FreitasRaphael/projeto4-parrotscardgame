@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEF9BF;
+}
+.corpo {
+    width: 1110px;
+    height: 629px;
+    margin: auto;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 56px;
+    color: #75B79E;
+    line-height: 66px;
+    letter-spacing: -0.004em;
+}
+
+.jogo {
+    width: 872px;
+    height: 326px; 
+    margin-top: 47px; 
+    margin-left: 122px;
+    margin-right: 116px;
+    margin-bottom: 153px; 
+}
+
+.carta {
+    width: 117px;
+    height: 146px;
+    background-color: #A7E9AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #99CEA8;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+@media (max-width: 335px) {
+    .titulo {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+
+}
