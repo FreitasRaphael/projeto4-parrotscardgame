@@ -19,7 +19,7 @@ body {
 }
 
 .jogo {
-    width: 872px;
+    width: 1023px;
     height: 326px; 
     margin-top: 47px; 
     margin-left: 122px;
@@ -39,7 +39,15 @@ body {
     border-radius: 5px;
 }
 
-@media (max-width: 335px) {
+.jogo .carta img:last-of-type {
+    display: none;
+}
+
+.carta acertada {
+    display: none;
+}
+
+@media (max-width: 426px) {
     .titulo {
         font-size: 36px;
         line-height: 42px;
